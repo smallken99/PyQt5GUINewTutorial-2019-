@@ -63,9 +63,9 @@ class Window(QDialog):
         if self.check1.isChecked():
             self.label.setText("You have selected " + self.check1.text())
         elif self.check2.isChecked():
-            self.label.setText("You have selected " + self.check1.text())
+            self.label.setText("You have selected " + self.check2.text())
         elif self.check3.isChecked():
-            self.label.setText("You have selected " + self.check1.text())
+            self.label.setText("You have selected " + self.check3.text())
         else:
             self.label.setText("")
 if __name__ == "__main__":

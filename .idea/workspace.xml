@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a5854ba-34e1-4648-9328-76dc06072250" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#12CreatingQLineEditWithreturnPressedSignal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#13GUIHowToCreateQButtonGroup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#47QFileDialogBrowsingAnImage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
       <recent name="C:\Users\small\PyQt5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.#13GUIHowToCreateQButtonGroup">
+  <component name="RunManager" selected="Python.#47QFileDialogBrowsingAnImage">
     <configuration name="#10CreatingQCheckBoxWithSignals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyQt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="#9CreatingQRadioButtonWithToggledSign" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="#47QFileDialogBrowsingAnImage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyQt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/#9CreatingQRadioButtonWithToggledSign.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/#47QFileDialogBrowsingAnImage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.#47QFileDialogBrowsingAnImage" />
         <item itemvalue="Python.#13GUIHowToCreateQButtonGroup" />
         <item itemvalue="Python.#12CreatingQLineEditWithreturnPressedSignal" />
         <item itemvalue="Python.#11CreatingWHATSTHISWidgetWithQWhatsThisClass" />
         <item itemvalue="Python.#10CreatingQCheckBoxWithSignals" />
-        <item itemvalue="Python.#9CreatingQRadioButtonWithToggledSign" />
       </list>
     </recent_temporary>
   </component>
@@ -181,46 +180,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="512" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1578412266756" />
-    <state width="833" height="195" key="GridCell.Tab.0.bottom" timestamp="1579273056564">
+    <state width="1048" height="195" key="GridCell.Tab.0.bottom" timestamp="1579276224269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="833" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579273056564" />
-    <state width="833" height="195" key="GridCell.Tab.0.center" timestamp="1579273056564">
+    <state width="1048" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579276224269" />
+    <state width="1048" height="195" key="GridCell.Tab.0.center" timestamp="1579276224269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="833" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579273056564" />
-    <state width="833" height="195" key="GridCell.Tab.0.left" timestamp="1579273056564">
+    <state width="1048" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579276224269" />
+    <state width="1048" height="195" key="GridCell.Tab.0.left" timestamp="1579276224269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="833" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579273056564" />
-    <state width="833" height="195" key="GridCell.Tab.0.right" timestamp="1579273056564">
+    <state width="1048" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579276224269" />
+    <state width="1048" height="195" key="GridCell.Tab.0.right" timestamp="1579276224269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="833" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579273056564" />
-    <state width="833" height="236" key="GridCell.Tab.1.bottom" timestamp="1579272682722">
+    <state width="1048" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579276224269" />
+    <state width="833" height="236" key="GridCell.Tab.1.bottom" timestamp="1579274152590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="833" height="236" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579272682722" />
-    <state width="833" height="236" key="GridCell.Tab.1.center" timestamp="1579272682722">
+    <state width="833" height="236" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579274152590" />
+    <state width="833" height="236" key="GridCell.Tab.1.center" timestamp="1579274152590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="833" height="236" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579272682722" />
-    <state width="833" height="236" key="GridCell.Tab.1.left" timestamp="1579272682722">
+    <state width="833" height="236" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579274152590" />
+    <state width="833" height="236" key="GridCell.Tab.1.left" timestamp="1579274152590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="833" height="236" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579272682722" />
-    <state width="833" height="236" key="GridCell.Tab.1.right" timestamp="1579272682722">
+    <state width="833" height="236" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579274152590" />
+    <state width="833" height="236" key="GridCell.Tab.1.right" timestamp="1579274152590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="833" height="236" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579272682722" />
+    <state width="833" height="236" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579274152590" />
     <state x="270" y="55" key="SettingsEditor" timestamp="1578412194766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578412194766" />
-    <state x="463" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1579269730449">
+    <state x="463" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1579274678492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="463" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579269730449" />
+    <state x="463" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579274678492" />
     <state x="710" y="162" width="672" height="678" key="search.everywhere.popup" timestamp="1579271393139">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

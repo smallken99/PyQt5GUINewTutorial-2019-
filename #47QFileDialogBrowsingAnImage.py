@@ -41,7 +41,7 @@ class Window(QDialog):
         fname = QFileDialog.getOpenFileName(self,'Open File','c\\','Image Files (*.jpg *.gif *.png)')
         imagePath = fname[0]
         pixmap = QPixmap(imagePath)
-        self.label.setPixmap(QPixmap(pixmap))
+        self.label.setPixmap(pixmap)
         print(fname,imagePath)
         self.resize(pixmap.width(),pixmap.height())
 

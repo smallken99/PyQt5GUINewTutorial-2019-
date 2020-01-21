@@ -10,7 +10,7 @@ from PyQt5.QtCore import Qt
 
 
 class Window(QWidget):
-    def __init__(self, val):
+    def __init__(self):
         super().__init__()
         self.title = "PyQt5 QSpinValue"
         self.left = 500
@@ -42,5 +42,5 @@ class Window(QWidget):
 
 if __name__ == "__main__":
     App = QApplication(sys.argv)
-    window = Window(20)
+    window = Window()
     sys.exit(App.exec())

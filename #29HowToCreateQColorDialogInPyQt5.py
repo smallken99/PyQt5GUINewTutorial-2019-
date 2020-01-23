@@ -1,5 +1,5 @@
 from PyQt5 import QtGui
-from PyQt5.QtWidgets import QApplication,QAction,QMainWindow,QTextEdit,QFontDialog
+from PyQt5.QtWidgets import QApplication,QAction,QMainWindow,QTextEdit,QFontDialog,QColorDialog
 
 import sys
 from PyQt5 import QtGui
@@ -13,7 +13,7 @@ from random import randint
 class Window(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.title = "PyQt5 FontDialog"
+        self.title = "PyQt5 ColorDialog"
         self.left = 500
         self.top = 200
         self.width = 500
@@ -61,6 +61,10 @@ class Window(QMainWindow):
         fontAction.triggered.connect(self.fontDialog)
         viewMenu.addAction(fontAction)
 
+        colorAction = QAction(QIcon("color.png"),"Color",self)
+        colorAction.triggered.connect(self.colorDialog)
+        viewMenu.addAction(colorAction)
+
         toolbar = self.addToolBar("Toolbar")
         toolbar.addAction(copyAction)
         toolbar.addAction(cutAction)
@@ -68,6 +72,7 @@ class Window(QMainWindow):
         toolbar.addAction(saveAction)
         toolbar.addAction(exitAction)
         toolbar.addAction(fontAction)
+        toolbar.addAction(colorAction)
 
     def exitWindow(self):
         self.close()
@@ -75,11 +80,14 @@ class Window(QMainWindow):
     def createEditor(self):
         self.textedit = QTextEdit(self)
         self.setCentralWidget(self.textedit)
+
     def fontDialog(self):
         font, ok = QFontDialog.getFont()
         if ok:
             self.textedit.setFont(font)
-
+    def colorDialog(self):
+        color = QColorDialog.getColor()
+        self.textedit.setTextColor(color)
 if __name__ == "__main__":
     App = QApplication(sys.argv)
     window = Window()
